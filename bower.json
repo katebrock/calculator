@@ -8,12 +8,15 @@
   "main": "",
   "moduleType": [],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/katebrock/calculator",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "neat": "~1.7.2"
+  }
 }
