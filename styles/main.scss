@@ -1,0 +1,16 @@
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+$visual-grid:true;
+@import '../bower_components/neat/app/assets/stylesheets/neat';
+
+
+
+body{
+@include outer-container;
+}
+
+
+.container{
+  @include span-columns(4);
+  height: 40px;
+  background-color: green;
+}
